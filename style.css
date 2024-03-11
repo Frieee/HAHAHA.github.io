@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+  }
+
+  body {
+    height: 100vh;
+    background: pink;
+  }
+
+  #noButton {
+    position: absolute;
+    margin-left: 150px;
+    transition: 0.5s;
+ 
+}
+
+#yesButton {
+    position: absolute;
+    margin-right: 150px;
+
+}
+
+  .hero-section {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+   .hero-section h1 {
+    color: white;
+    margin-right: 80px;
+    font-size: 30px;
+    margin-top:  200px;
+    font-weight: 500;
+    font-family: cursive;
+   text-align: center;
+  }
+
+  .container img {
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+  }
+
+  .hero-section .btn button {
+    background: linear-gradient(135deg, pink, brown);
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 20px;
+    align-items: center;
+    padding: 12px 30px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .hero-section .btn {
+    margin-right: 300px;
+  }
+
+  .hero-section .btn .button {
+    font-size: 20px;
+    font-family: cursive;
+    color: pink;
+  }
+
+  .hero-section .btn button:hover {
+    background: linear-gradient(135deg, brown, pink);
+  }

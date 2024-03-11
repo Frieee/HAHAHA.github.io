@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>malandi</title>
+</head>
+<body>
+    <section class="hero-section">
+        <div class="content">
+            <h1>Do you wanna go out with me?</h1>
+            <img src="https://media.giphy.com/media/LnKonfpQ44fNvuGLkA/giphy.gif">             
+        </div>
+        <div class = "btn">
+            <button class="button" id = "yesButton" onclick="nextPage()">Yes</button>
+            <button class="button" id="noButton" onmouseover="moveButton()">No</button>
+            <script>
+                function nextPage() {
+                    window.location.href = "https://frieee.github.io/landi.github.io/";
+                }
+                
+                function moveButton() {
+                    var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth);
+                    var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight);
+                    document.getElementById('noButton').style.left = `${x}px`;
+                    document.getElementById('noButton').style.top = `${y}px`;
+                }
+            </script> 
+        </div>
+    </section>
+    
+</body>
+</html>
