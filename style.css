@@ -71,3 +71,12 @@
   .hero-section .btn button:hover {
     background: linear-gradient(135deg, brown, pink);
   }
+
+ @media (max-width: 600px) and (orientation: portrait) {
+  
+    .container img {
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+    }
+  }
